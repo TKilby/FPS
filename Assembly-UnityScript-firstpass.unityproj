@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CA7A8DAD-EA6E-F1E7-A80C-E4E230CCA5D8}</ProjectGuid>
+    <ProjectGuid>{CA7173DC-385A-3470-3E2D-47C3300CEABA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-UnityScript-firstpass</AssemblyName>
@@ -192,7 +192,6 @@
      <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\WeaponInfo.js" />
      <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\WeaponScripts\WeaponLocking.js" />
      <Compile Include="Assets\Plugins\FPS Constructor V1\ScriptsDB\copyright.txt.js" />
-     <None Include="Assets\CommitTest2.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

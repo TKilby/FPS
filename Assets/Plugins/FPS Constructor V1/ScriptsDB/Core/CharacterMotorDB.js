@@ -161,7 +161,7 @@ class CharacterMotorDBJumping {
 	var baseHeight : float = 1.0;
 	
 	// We add extraHeight units (meters) on top when holding the button down longer while jumping
-	var extraHeight : float = 4.1;
+	var extraHeight : float = 40.1;
 	
 	// How much does the character jump out perpendicular to the surface on walkable surfaces?
 	// 0 means a fully vertical jump and 1 means fully perpendicular.

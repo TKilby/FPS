@@ -22,10 +22,10 @@ public class LightningBolt : MonoBehaviour
 	void Start()
 	{
 		oneOverZigs = 1f / (float)zigs;
-		GetComponent<ParticleEmitter>().emit = false;
+	//	particleEmitter.emit = false;
 
-		GetComponent<ParticleEmitter>().Emit(zigs);
-		particles = GetComponent<ParticleEmitter>().particles;
+//		particleEmitter.Emit(zigs);
+//		particles = particleEmitter.particles;
 	}
 	
 	void Update ()
@@ -56,13 +56,13 @@ public class LightningBolt : MonoBehaviour
 			particles[i].energy = 1f;
 		}
 		
-		GetComponent<ParticleEmitter>().particles = particles;
+//		particleEmitter.particles = particles;
 		
-		if (GetComponent<ParticleEmitter>().particleCount >= 2)
-		{
-			if (endLight)
-				endLight.transform.position = particles[particles.Length - 1].position;
-		}
+//		if (particleEmitter.particleCount >= 2)
+	//	{
+	//		if (endLight)
+	//			endLight.transform.position = particles[particles.Length - 1].position;
+	//	}
 	}	
 	
 	void EmitCharge (bool s) {
