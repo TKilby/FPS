@@ -1,7 +1,8 @@
 //#pragma strict
 //#pragma implicit
 //#pragma downcast
-
+import UnityEngine.Networking;
+import UnityEngine.UI;
 // Does this script currently respond to input?
 var canControl : boolean = true;
 
@@ -161,7 +162,7 @@ class CharacterMotorDBJumping {
 	var baseHeight : float = 1.0;
 	
 	// We add extraHeight units (meters) on top when holding the button down longer while jumping
-	var extraHeight : float = 4.1;
+	var extraHeight : float = 40.1;
 	
 	// How much does the character jump out perpendicular to the surface on walkable surfaces?
 	// 0 means a fully vertical jump and 1 means fully perpendicular.
@@ -195,7 +196,7 @@ class CharacterMotorDBJumping {
 
 var jumping : CharacterMotorDBJumping = CharacterMotorDBJumping();
 
-class CharacterMotorDBMovingPlatform {
+class CharacterMotorDBMovingPlatform  {
 	var enabled : boolean = true;
 	
 	var movementTransfer : MovementTransferOnJumpDB = MovementTransferOnJumpDB.PermaTransfer;
@@ -261,6 +262,7 @@ private var tr : Transform;
 private var controller : CharacterController;
 
 function Awake () {
+
 	var values : MovementValues = this.GetComponent(MovementValues);
 	if(values != null){
 		movement.defaultForwardSpeed = values.defaultForwardSpeed;
@@ -296,6 +298,7 @@ function Awake () {
 }
 
 private function UpdateFunction () {
+
 	if(paused)
 		return;
 	if(diving){

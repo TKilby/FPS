@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\FPS Constructor V1\Demo Assets\Enemy\General Scripts\EnemyDrop.js">
+    <Files>
+      <File FileName="Assets\Plugins\FPS Constructor V1\Demo Assets\Weapons\Plasma Beam\LightningBolt.cs" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\FPS Constructor V1\ScriptsDB\Input\Key.js" Line="1" Column="1" />
+      <File FileName="Assets\Plugins\FPS Constructor V1\ScriptsDB\Core\CharacterMotorDB.js" Line="161" Column="31" />
+      <File FileName="Assets\EnemySpawner.cs" Line="30" Column="45" />
+      <File FileName="Assets\Plugins\FPS Constructor V1\Demo Assets\Scripts\Spawner.js" Line="16" Column="20" />
+      <File FileName="Assets\Plugins\FPS Constructor V1\Demo Assets\Scripts\CubeSet.js" Line="14" Column="6" />
+      <File FileName="Assets\Plugins\FPS Constructor V1\Demo Assets\Enemy\General Scripts\EnemyDrop.js" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
